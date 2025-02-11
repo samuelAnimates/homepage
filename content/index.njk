@@ -3,27 +3,40 @@ const eleventyNavigation = {
 	key: "Home",
 	order: 1
 };
-
-const numberOfLatestPostsToShow = 3;
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
-{% endif %}
-
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
+<div class=content-box-inner">
+	<h1>Hello, world</h1>
+	<img class="portrait" alt="Line drawing portrait of a person with long dark hair and glasses." src="../public/img/portrait.svg">
+	<p>
+		<span>I am a researcher and artist. I aim to support health communication online. I do that through research, teaching, and art. Here are some highlights:</span>
+		<ul>
+			<li>
+				<a href=”https://doi.org/10.2196/59786”>A study of public health agencies using Twitter</a>, from 2012 through 2022.
+			</li>
+			<li>
+				<a href=“https://hsph.harvard.edu/research/health-communication/resources/digital-safety-kit-for-public-health/”>Digital Safety Kit for Public Health</a>: A guide to decrease the harm of online harassment.
+			</li>
+			<li>
+				<a href="https://www.unfundable.fun">UNFUNDABLE</a>: A board game about academic public health.
+			</li>
+		</ul>
+	</p>
+	<h2> Follow me </h2>
+	<p>For usable research insights, subscribe to my <a href="https://www.linkedin.com/newsletters/health-literacy-right-now-7110314537236463616/">Health Literacy Right Now newsletter on LinkedIn</a>. To get the latest updates on current events, follow the <a href="https://bsky.app/profile/samuelanimates.bsky.social/feed/aaaarylo7rb2e">Public Health Feed on BlueSky</a>. To join a blooming community of scientists on social media, use the <a href="https://bsky.app/starter-pack/samuelanimates.bsky.social/3kw5z4vfc3h2m">Public Health BlueSky Starter Pack</a></p>
+	
+	<p>
+		<span>For more personal updates, follow me on social media:</span>
+		<ul>
+			<li>
+				<a href="https://www.youtube.com/@samuelanimates">YouTube</a>
+			</li>
+			<li>
+				<a href="www.linkedin.com/in/samuelanimates">LinkedIn</a>
+			</li>
+			<li>
+				<a href="https://bsky.app/profile/samuelanimates.bsky.social">BlueSky</a>
+			</li>
+		</ul>
+	</p>
+</div>

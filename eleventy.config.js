@@ -6,6 +6,12 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 
+import markdownIt from "markdown-it";
+import mila from "markdown-it-link-attributes";
+import embedYouTube from "eleventy-plugin-youtube-embed";
+
+import { DateTime } from "luxon";
+
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 	// Drafts, see also _data/eleventyDataSchema.js
@@ -47,6 +53,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
+	/*
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed/feed.xml",
@@ -72,6 +79,8 @@ export default async function(eleventyConfig) {
 		}
 	});
 
+	*/
+
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
@@ -96,11 +105,7 @@ export default async function(eleventyConfig) {
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
 
-	eleventyConfig.addPlugin(IdAttributePlugin, {
-		// by default we use Eleventy’s built-in `slugify` filter:
-		// slugify: eleventyConfig.getFilter("slugify"),
-		// selector: "h1,h2,h3,h4,h5,h6", // default
-	});
+
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
@@ -113,6 +118,34 @@ export default async function(eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	// Code from https://dannywhite.net/notes/new-tab-links/
+	// Modify the Markdown library used by Eleventy to make all external links open in new tabs
+	eleventyConfig.setLibrary(
+		"md",
+		markdownIt().use(mila, {
+		matcher: (href) => /^https?:\/\//.test(href), // Ensures only external links are targeted
+		attrs: {
+			target: "_blank",
+			rel: "noopener",
+		},
+		})
+	);
+
+	// Lite version of YouTube embed, which only loads iframe if user clicks Play
+	eleventyConfig.addPlugin(embedYouTube, {
+		lazy:true,
+		modestBranding: true,
+		allowAttrs: "",
+		recommendSelfOnly: true,
+		titleOptions: {
+			download: true
+		}
+	  });
+	 
+	// Add current date-time as a global variable (convert to Luxon DateTime)
+	eleventyConfig.addGlobalData("buildDate", DateTime.now().toFormat("LLL dd, yyyy"));
+
 };
 
 export const config = {
@@ -138,7 +171,7 @@ export const config = {
 		includes: "../_includes",  // default: "_includes" (`input` relative)
 		data: "../_data",          // default: "_data" (`input` relative)
 		output: "_site"
-	},
+	}
 
 	// -----------------------------------------------------------------
 	// Optional items:
@@ -151,5 +184,6 @@ export const config = {
 	// it will transform any absolute URLs in your HTML to include this
 	// folder name and does **not** affect where things go in the output folder.
 
-	// pathPrefix: "/",
+	// pathPrefix: "/"	
+
 };
