@@ -26,9 +26,7 @@ I love games as ways to make shared language around uncommon experiences. I've d
 
 ## Teaching
 
-I taught high school students how to make documentary shorts, photo essays, and podcast episodes about environmental justice issues. This involved techinical training, as well as discussions of health equity.
-
-I have also incorporated the arts into workshops with college students. Here are a few examples from my master's thesis:
+I incorporate the arts into workshops introducing abstract concepts I study. I find it helpful to relate these big ideas to more everyday experiences. Here are a few examples from my master's thesis:
 
 - [What does health equity feel like?](https://hercommunication.pubpub.org/pub/healthyequityfeels/release/2)
 - [#AIcoffeeHouse](https://hercommunication.pubpub.org/pub/aicoffeehouse/release/1)

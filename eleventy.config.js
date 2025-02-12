@@ -84,7 +84,7 @@ export default async function(eleventyConfig) {
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
-		formats: ["avif", "webp", "auto"],
+		formats: ["avif", "webp", "auto","svg"],
 
 		// widths: ["auto"],
 
@@ -171,7 +171,7 @@ export const config = {
 		includes: "../_includes",  // default: "_includes" (`input` relative)
 		data: "../_data",          // default: "_data" (`input` relative)
 		output: "_site"
-	}
+	},
 
 	// -----------------------------------------------------------------
 	// Optional items:
@@ -184,6 +184,6 @@ export const config = {
 	// it will transform any absolute URLs in your HTML to include this
 	// folder name and does **not** affect where things go in the output folder.
 
-	// pathPrefix: "/"	
+	//pathPrefix: "/"	
 
 };
