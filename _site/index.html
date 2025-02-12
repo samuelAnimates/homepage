@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Sam Mendez Portfolio</title>
+			<meta name="description" content="Focused on health, media, and technology. Portfolio of work in academia and media by Samuel R. Mendez.">
+			<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Sam Mendez Portfolio">
+			<meta name="generator" content="Eleventy v3.0.0">
+			<link rel="stylesheet" href="/dist/v3ciEZ0QFy.css">
+
+			<meta property="og:image" content="www.samuelanimates.com/img/editableLogo.png">
+
+		</head>
+		<body>
+			<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+				<header class="content-box">
+					<div class="content-box-inner">
+						<span class="header-text">Browse Sam's portfolio:</span>
+						<nav>
+							<ul class="nav">
+								<li class="nav-item"><a href="/" aria-current="page">Home</a></li>
+								<li class="nav-item"><a href="/ai/">AI</a></li>
+								<li class="nav-item"><a href="/literacy/">Literacy</a></li>
+								<li class="nav-item"><a href="/safety/">Safety</a></li>
+								<li class="nav-item"><a href="/media/">Media</a></li>
+								<li class="nav-item"><a href="/publications/">Published Work</a></li>
+								<li class="nav-item"><a href="/arts/">Art</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+				<div class="content-box">
+					<div class="content-box-inner">
+						<div class="container-buttons">
+							<span class="header-text">Settings:</span>
+							<button id="theme-toggle" aria-pressed="false">Toggle Dark Mode</button>
+							<button id="font-toggle" aria-pressed="false">Toggle Large Font</button>
+						</div>
+					</div>
+				</div>
+
+				<script>
+					document.addEventListener("DOMContentLoaded", function () {
+						const toggleButton = document.getElementById("theme-toggle");
+						const rootElement = document.documentElement;
+						const storedTheme = sessionStorage.getItem("theme");
+
+						// Apply stored theme if available
+						if (storedTheme) {
+							rootElement.setAttribute("data-theme", storedTheme);
+						}
+
+						// Function: Update aria label based on the current font size. This gives screen readers a state update that is otherwise only available visually
+						function updateThemeButton(theme) {
+							toggleButton.ariaPressed = theme === "dark" ? "true" : "false";
+						}
+
+						// Toggle function
+						toggleButton.addEventListener("click", function () {
+							let currentTheme = rootElement.getAttribute("data-theme");
+
+							// If current font variable is dark, button press makes it light, and vice versa.
+							let newTheme = currentTheme === "dark" ? "light" : "dark";
+							// Store this info in session storage
+							rootElement.setAttribute("data-theme", newTheme);
+							sessionStorage.setItem("theme", newTheme);
+							// Update aria button
+							updateThemeButton(newTheme);
+						});
+
+					});
+
+					document.addEventListener("DOMContentLoaded", function () {
+						const toggleButton2 = document.getElementById("font-toggle");
+						const rootElement2 = document.documentElement;
+						const storedFont = sessionStorage.getItem("font");
+
+						// Apply stored font size if available
+						if (storedFont) {
+							rootElement2.setAttribute("data-font", storedFont);
+						}
+
+						// Function: Update aria label based on the current font size. This gives screen readers a state update that is otherwise only available visually
+						function updateFontButton(font) {
+							toggleButton2.ariaPressed = font === "large" ? "true" : "false";
+						}
+
+						// Toggle function
+						toggleButton2.addEventListener("click", function () {
+							//Grab current font size variable
+							let currentFont = rootElement2.getAttribute("data-font");
+
+							// If current font variable is large, button press makes it small, and vice versa.
+							let newFont = currentFont === "large" ? "small" : "large";
+							// Store this info in session storage
+							rootElement2.setAttribute("data-font", newFont);
+							sessionStorage.setItem("font", newFont);
+							//Update aria button
+							updateFontButton(newFont);
+						});
+
+					});
+					
+				</script>
+
+				<main id="skip" class="content-box">
+					<div class="content-box-inner">
+						<heading-anchors>
+							
+
+<div class="content-box-inner&quot;">
+	<h1>Hello, world</h1>
+	<div class="portrait">
+		<img alt="Line drawing portrait of a person with long dark hair and glasses." src="img\portrait.svg">
+	</div>
+	<p>
+		<span>I am a researcher and artist. I aim to support health communication online. I do that through research, teaching, and art. Here are some highlights:</span>
+		</p><ul>
+			<li>
+				<a href="”https://doi.org/10.2196/59786”">A study of public health agencies using Twitter</a>, from 2012 through 2022.
+			</li>
+			<li>
+				<a href="“https://hsph.harvard.edu/research/health-communication/resources/digital-safety-kit-for-public-health/”">Digital Safety Kit for Public Health</a>: A guide to decrease the harm of online harassment.
+			</li>
+			<li>
+				<a href="https://www.unfundable.fun">UNFUNDABLE</a>: A board game about academic public health.
+			</li>
+		</ul>
+	<p></p>
+	<h2> Follow me </h2>
+	<p>For usable research insights, subscribe to my <a href="https://www.linkedin.com/newsletters/health-literacy-right-now-7110314537236463616/">Health Literacy Right Now newsletter on LinkedIn</a>. To get the latest updates on current events, follow the <a href="https://bsky.app/profile/samuelanimates.bsky.social/feed/aaaarylo7rb2e">Public Health Feed on BlueSky</a>. To join a blooming community of scientists on social media, use the <a href="https://bsky.app/starter-pack/samuelanimates.bsky.social/3kw5z4vfc3h2m">Public Health BlueSky Starter Pack</a></p>
+	
+	<p>
+		<span>For more personal updates, follow me on social media:</span>
+		</p><ul>
+			<li>
+				<a href="https://www.youtube.com/@samuelanimates">YouTube</a>
+			</li>
+			<li>
+				<a href="www.linkedin.com/in/samuelanimates">LinkedIn</a>
+			</li>
+			<li>
+				<a href="https://bsky.app/profile/samuelanimates.bsky.social">BlueSky</a>
+			</li>
+		</ul>
+	<p></p>
+</div>
+
+						</heading-anchors>
+					</div>
+				</main>
+
+				<footer class="content-box">
+					<div class="content-box-inner">
+						<h2>Site Info</h2>
+						<p>I built this site with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a>.  I last updated it on: Feb 11, 2025.</p>
+						<p>This site uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">session storage</a> to save your dark mode and font size choices. This means your browser stores those choices until the tab closes. I don't use Google Analytics or any other trackers. But I embed YouTube videos. I'm de-Googling this site's videos. But it'll take a while.</p>
+						<p>I use <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Mozilla accessibility</a> and <a href="https://webaim.org/">Web AIM</a> resources to make this site more accessible.</p>
+					</div>
+				</footer>
+
+				<!-- Spacer for extra space -->
+				<div class="footer-spacer"></div>
+
+				
+
+		</body>
+
+</html>
