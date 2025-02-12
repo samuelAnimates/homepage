@@ -6,7 +6,7 @@ const eleventyNavigation = {
 ---
 # Arts and Design
 
-I view art as a way to make meaning out of the issues I care about. I incorporate 
+I view art as a way to make meaning out of the issues I care about, including public health issues.
 
 ## Animation
 
