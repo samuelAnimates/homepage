@@ -6,17 +6,15 @@ const eleventyNavigation = {
 ---
 # Arts and Design
 
-At heart, I'm an artist. I focus my working hours on research and teaching. But I still need art as a personal outlet. And as a way to describe my 
+I view art as a way to make meaning out of the issues I care about. I incorporate 
 
 ## Animation
 
-I have a background in video and animation. Here are the animated shorts I've made so far:
+I have a background in animation. I've made short films including an [animated documentary about the food for sale in a Bodega](https://youtu.be/PvTN0ZQWifw?feature=shared). I've also used animation to make a [vlog series about health communication](https://www.youtube.com/playlist?list=PLStduNqtQKzHw-rLUMUZIm8LoKGxlmP5r).
 
-https://www.youtube.com/watch?v=PvTN0ZQWifw&list=PLStduNqtQKzF89uUwM3t_9G7RKWPTXYEB&index=1
+As more of a creative outlet, I've also gotten into making work/study background videos:
 
-Animation takes a long time. As an independent artist, it can be really taxing. I started making lo-fi playlist videos as a creative outlet that didn't take as much out of me. Here's a playlist of videos to put on in the background:
-
-https://www.youtube.com/watch?v=QEokAeMv97w&list=PLStduNqtQKzHdB4ApKYRinIoNcZtk5ejX&index=1
+https://www.youtube.com/watch?v=QEokAeMv97w&list=PLStduNqtQKzHdB4ApKYRinIoNcZtk5ejX
 
 ## Game Design
 
@@ -26,7 +24,7 @@ I love games as ways to make shared language around uncommon experiences. I've d
 
 ## Teaching
 
-I incorporate the arts into workshops introducing abstract concepts I study. I find it helpful to relate these big ideas to more everyday experiences. Here are a few examples from my master's thesis:
+I incorporate the arts into workshops introducing the concepts I study. I find it helpful to relate these big ideas to more everyday experiences. Here are a few examples from my master's thesis:
 
 - [What does health equity feel like?](https://hercommunication.pubpub.org/pub/healthyequityfeels/release/2)
 - [#AIcoffeeHouse](https://hercommunication.pubpub.org/pub/aicoffeehouse/release/1)
