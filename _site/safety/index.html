@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Sam Mendez Portfolio</title>
+			<meta name="description" content="Focused on health, media, and technology. Portfolio of work in academia and media by Samuel R. Mendez.">
+			<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Sam Mendez Portfolio">
+			<meta name="generator" content="Eleventy v3.0.0">
+			<link rel="stylesheet" href="/dist/v3ciEZ0QFy.css">
+
+			<meta property="og:image" content="www.samuelanimates.com/img/editableLogo.png">
+
+		</head>
+		<body>
+			<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+				<header class="content-box">
+					<div class="content-box-inner">
+						<span class="header-text">Browse Sam's portfolio:</span>
+						<nav>
+							<ul class="nav">
+								<li class="nav-item"><a href="/">Home</a></li>
+								<li class="nav-item"><a href="/ai/">AI</a></li>
+								<li class="nav-item"><a href="/literacy/">Literacy</a></li>
+								<li class="nav-item"><a href="/safety/" aria-current="page">Safety</a></li>
+								<li class="nav-item"><a href="/media/">Media</a></li>
+								<li class="nav-item"><a href="/publications/">Published Work</a></li>
+								<li class="nav-item"><a href="/arts/">Art</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+				<div class="content-box">
+					<div class="content-box-inner">
+						<div class="container-buttons">
+							<span class="header-text">Settings:</span>
+							<button id="theme-toggle" aria-pressed="false">Toggle Dark Mode</button>
+							<button id="font-toggle" aria-pressed="false">Toggle Large Font</button>
+						</div>
+					</div>
+				</div>
+
+				<script>
+					document.addEventListener("DOMContentLoaded", function () {
+						const toggleButton = document.getElementById("theme-toggle");
+						const rootElement = document.documentElement;
+						const storedTheme = sessionStorage.getItem("theme");
+
+						// Apply stored theme if available
+						if (storedTheme) {
+							rootElement.setAttribute("data-theme", storedTheme);
+						}
+
+						// Function: Update aria label based on the current font size. This gives screen readers a state update that is otherwise only available visually
+						function updateThemeButton(theme) {
+							toggleButton.ariaPressed = theme === "dark" ? "true" : "false";
+						}
+
+						// Toggle function
+						toggleButton.addEventListener("click", function () {
+							let currentTheme = rootElement.getAttribute("data-theme");
+
+							// If current font variable is dark, button press makes it light, and vice versa.
+							let newTheme = currentTheme === "dark" ? "light" : "dark";
+							// Store this info in session storage
+							rootElement.setAttribute("data-theme", newTheme);
+							sessionStorage.setItem("theme", newTheme);
+							// Update aria button
+							updateThemeButton(newTheme);
+						});
+
+					});
+
+					document.addEventListener("DOMContentLoaded", function () {
+						const toggleButton2 = document.getElementById("font-toggle");
+						const rootElement2 = document.documentElement;
+						const storedFont = sessionStorage.getItem("font");
+
+						// Apply stored font size if available
+						if (storedFont) {
+							rootElement2.setAttribute("data-font", storedFont);
+						}
+
+						// Function: Update aria label based on the current font size. This gives screen readers a state update that is otherwise only available visually
+						function updateFontButton(font) {
+							toggleButton2.ariaPressed = font === "large" ? "true" : "false";
+						}
+
+						// Toggle function
+						toggleButton2.addEventListener("click", function () {
+							//Grab current font size variable
+							let currentFont = rootElement2.getAttribute("data-font");
+
+							// If current font variable is large, button press makes it small, and vice versa.
+							let newFont = currentFont === "large" ? "small" : "large";
+							// Store this info in session storage
+							rootElement2.setAttribute("data-font", newFont);
+							sessionStorage.setItem("font", newFont);
+							//Update aria button
+							updateFontButton(newFont);
+						});
+
+					});
+					
+				</script>
+
+				<main id="skip" class="content-box">
+					<div class="content-box-inner">
+						<heading-anchors>
+							
+<h1>Digital Safety</h1>
+<p>Online harassment is a growing concern for people in public health. This includes students, scientists, officials, and other workers. Public funding and the need for community engagement make it impossible to &quot;just log off.&quot; So I've spent a lot of time giving people tips to help reduce the harm.</p>
+<h2>Resources</h2>
+<p>I made tools with Harvard's Center for Health Communication. They offer short-term and long-term tips for people doing public health work today. They also offer entry points for people who don't feel like tech experts.</p>
+<ul>
+<li><a href="https://hsph.harvard.edu/research/health-communication/resources/digital-safety-kit-for-public-health/" target="_blank" rel="noopener">Digital Safety Kit for Public Health</a>. A guide to lessen the harm of online harassment. For workers, students, and organizations.</li>
+<li><a href="https://hsph.harvard.edu/research/health-communication/resources/digital-safety-discotech-diy/" target="_blank" rel="noopener">DIY Digital Safety DiscoTech</a>. An online resource for you to run your own digital safety events. No expertise required!</li>
+</ul>
+<h2>Research</h2>
+<p>The field of media studies offers useful ways to think about online safety. As one example, I worked with health communicators to use a media studies framework to understand their experiences:</p>
+<ul>
+<li><a href="http://dx.doi.org/10.1080/10810730.2024.2358141" target="_blank" rel="noopener">A framework to respond to online harassment</a>. In: <em>Journal of Health Communication</em>.</li>
+</ul>
+<h2>Outreach</h2>
+<p>We still need to raise awareness of the issue of online harassment in public health. People need to know what it looks like. And people need to know that health organizations have the power to respond. I wrote op-eds on these topics:</p>
+<ul>
+<li><a href="https://harvardpublichealth.org/policy-practice/peter-hotez-wont-be-the-last-health-worker-harassed-online/" target="_blank" rel="noopener">Online harassment of public health workers</a>. In: <em>Harvard Public Health</em>.</li>
+<li><a href="https://www.insidehighered.com/opinion/views/2024/08/14/anti-science-harassment-rise-opinion" target="_blank" rel="noopener">University supports in the face of online harassment</a>. In: <em>Inside Higher Ed</em>.</li>
+</ul>
+<p>I've also talked with journalists writing about online harassment in health fields. I've shared insights into what people can do if it happens to them:</p>
+<ul>
+<li>Forthcoming article in: <em>Nature</em>.</li>
+<li><a href="https://www.nhpr.org/health/2024-02-27/nh-doctor-threatened-harassed-after-being-falsely-linked-to-video-of-racist-slur" target="_blank" rel="noopener">Harassment of a doctor in a case of mistaken identity</a>. In: <em>New Hampshire Public Radio</em>.</li>
+</ul>
+<h2>Teaching</h2>
+<p>I led several intro workshops on digital with research groups around Harvard. I have also run &quot;Digital Safety DiscoTech&quot; events to help public health students take action in a low-key social setting. I also offered an action plan for researchers through a panel at the <a href="https://www.cugh2024.org/" target="_blank" rel="noopener">CUGH 2024 conference</a>.</p>
+
+
+						</heading-anchors>
+					</div>
+				</main>
+
+				<footer class="content-box">
+					<div class="content-box-inner">
+						<h2>Site Info</h2>
+						<p>I built this site with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a>.  I last updated it on: Feb 11, 2025.</p>
+						<p>This site uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">session storage</a> to save your dark mode and font size choices. This means your browser stores those choices until the tab closes. I don't use Google Analytics or any other trackers. But I embed YouTube videos. I'm de-Googling this site's videos. But it'll take a while.</p>
+						<p>I use <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Mozilla accessibility</a> and <a href="https://webaim.org/">Web AIM</a> resources to make this site more accessible.</p>
+					</div>
+				</footer>
+
+				<!-- Spacer for extra space -->
+				<div class="footer-spacer"></div>
+
+				
+
+		</body>
+
+</html>
