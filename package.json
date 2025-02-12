@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/samuelAnimates/homepage"
+		"url": "https://github.com/samuelAnimates/homepage"
 	},
 	"author": {
 		"name": "Sam Mendez",
@@ -35,7 +35,6 @@
 		"@zachleat/heading-anchors": "^1.0.1",
 		"eleventy-plugin-youtube-embed": "^1.11.0",
 		"markdown-it": "^14.1.0",
-		"markdown-it-link-attributes": "^4.0.1",
-		"netlify-plugin-cache": "^1.0.3"
+		"markdown-it-link-attributes": "^4.0.1"
 	}
 }
