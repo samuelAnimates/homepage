@@ -10,15 +10,13 @@ I'm interested in AI that doesn't tend to come across as AI anymore. Example: Go
 
 ## Resources
 
-I am working on some projects around AI and health communication. In the mean time, I suggest this intro book:
+I made this site to share some insights from my dissertation. It provides recommendations for research, policy, and practice around AI for health communication:
 
-- [Artificial Intelligence: A Guide for Thinking Humans](https://melaniemitchell.me/aibook/) by Melanie Mitchell. 
+- [Health Liteacy & AI](https://health-literacy.ai/)
 
 ## Research
 
-My dissertation looks at AI in health communication. One paper looks at supervised machine learning to assess how clear health communication is. Another paper looks at large language models (Llama and ChatGPT) to try to do the same thing.
-
-More info coming soon! But a quick spoiler: AI should not replace human knowledge in health communication. There's _some_ use for AI as a helper. But with major limits.
+My dissertation looks at AI in health communication. One paper looks at supervised machine learning to assess how clear health communication is. Another paper looks at large language models (Llama and ChatGPT) to try to do the same thing. Use the link above to visit the website I made for my dissertation. There will be more in-depth journal articles coming soon!
 
 ## Teaching
 
