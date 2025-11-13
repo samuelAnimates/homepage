@@ -20,7 +20,7 @@ I also publish a [health literacy newsletter](https://www.linkedin.com/newslette
 
 ## Research
 
-In my dissertation, I look at how researchers have used the CDC Clear Communication Index. I also test out what happens when we use supervised learning and large language models to helps us automate the CDC Index. I'll publish these studies soon. But in the mean time, I can say this: AI tools cannot replace human expertise in health communication.
+In [my dissertation](https://health-literacy.ai/), I look at how researchers have used the CDC Clear Communication Index. I also test out what happens when we use supervised learning and large language models to helps us automate the CDC Index. I'll publish these studies soon. But in the mean time, I can say this: AI tools cannot replace human expertise in health communication.
 
 ## Teaching
 

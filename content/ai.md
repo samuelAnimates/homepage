@@ -12,7 +12,7 @@ I'm interested in AI that doesn't tend to come across as AI anymore. Example: Go
 
 I made this site to share some insights from my dissertation. It provides recommendations for research, policy, and practice around AI for health communication:
 
-- [Health Liteacy & AI](https://health-literacy.ai/)
+- [Health Literacy & AI](https://health-literacy.ai/)
 
 ## Research
 
