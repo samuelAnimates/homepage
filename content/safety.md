@@ -32,7 +32,7 @@ We still need to raise awareness of the issue of online harassment in public hea
 
 I've also talked with journalists writing about online harassment in health fields. I've shared insights into what people can do if it happens to them: 
 
-- Forthcoming article in: _Nature_.
+- [Digital safety tips for scientists](https://www.nature.com/articles/d41586-025-00681-4) In: _Nature_.
 - [Harassment of a doctor in a case of mistaken identity](https://www.nhpr.org/health/2024-02-27/nh-doctor-threatened-harassed-after-being-falsely-linked-to-video-of-racist-slur). In: _New Hampshire Public Radio_.
 
 ## Teaching
