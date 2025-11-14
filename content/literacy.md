@@ -6,7 +6,7 @@ const eleventyNavigation = {
 ---
 # Health Literacy
 
-Health literacy includes someone’s skills to find and use info. It also includes the quality of messages from health organizations. It also includes health professionals’ skills to share info. I like to focus on health organizations and professionals rather than mass audiences. I think it makes more sense to target people whose job it is to discuss health.
+Health literacy includes someone’s skills to find and use info. It also includes the quality of messages from health organizations. It also includes health professionals’ skills to share info. I like to focus on how to equip health organizations and professionals to communicate more clearly. I am not as into increasing people's personal health literacy skills. With only so many hours in the day, I think it makes more sense to target people whose job it is to discuss health.
 
 ## Resources
 
@@ -20,7 +20,11 @@ I also publish a [health literacy newsletter](https://www.linkedin.com/newslette
 
 ## Research
 
-In [my dissertation](https://health-literacy.ai/), I look at how researchers have used the CDC Clear Communication Index. I also test out what happens when we use supervised learning and large language models to helps us automate the CDC Index. I'll publish these studies soon. But in the mean time, I can say this: AI tools cannot replace human expertise in health communication.
+I publish peer-reviewed jopurnal articles to share knowledge about health literacy:
+
+- [Limits of reading grade level estimates](https://doi.org/10.1080/10810730.2025.2583460)
+
+In [my dissertation](https://health-literacy.ai/), I test out what happens when we use supervised learning and large language models to helps us automate the CDC Clear Communication Index. I'll publish these studies soon. But in the mean time, I can say this: AI tools cannot replace human expertise in health communication.
 
 ## Teaching
 

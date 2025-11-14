@@ -22,6 +22,7 @@ Journal articles help researchers build on each others' work. For a full record 
 
 One topic I study is the role of social media in public health. Sometimes I use statistics and computational methods to study large amounts of communication. Other times, I use qualitative methods to go more in-depth with smaller amounts. These are some of the subjects I've studied:
 
+- [Limits of reading grade level estimates](https://doi.org/10.1080/10810730.2025.2583460)
 - [US state public health agencies' use of Twitter](https://doi.org/10.2196/59786)
 - [Social media use by community organizations](http://doi.org/10.1186/1471-2458-13-1129)
 
@@ -43,7 +44,7 @@ Reference books are other important outlets for researchers. They help students 
 
 ## Reporting
 
-I have reported on virtual reality and co-created media. 
+I have also reported on virtual reality and co-created media:
 
 - [Virtual Reality at Sundance 2020](https://www.indiewire.com/features/general/sundance-2020-vr-climate-change-1202208386/). In: _IndieWire_.
 - [Assistive Technology co-design](https://immerse.news/centering-people-with-disabilities-in-engineering-373f827840dc). In: _Immerse_.
