@@ -1,7 +1,7 @@
 ---js
 const eleventyNavigation = {
 	key: "Safety",
-	order: 4,
+	order: 7,
 	
 };
 ---

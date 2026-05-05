@@ -1,7 +1,7 @@
 ---js
 const eleventyNavigation = {
 	key: "Art",
-	order: 7
+	order: 3
 };
 ---
 # Arts and Design

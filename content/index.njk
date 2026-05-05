@@ -3,6 +3,9 @@ const eleventyNavigation = {
 	key: "Home",
 	order: 1
 };
+
+const numberOfLatestPostsToShow = 3;
+
 ---
 
 <div class=content-box-inner">
@@ -11,7 +14,7 @@ const eleventyNavigation = {
 		<img alt="Line drawing portrait of a person with long dark hair and glasses." src="../img/portrait.svg">
 	</div>
 	<p>
-		<span>I am Samuel Mendez, a researcher and artist focused on media, technology, and health. I recently got my PhD in public health from Harvard. And I have a background in media arts and media studies. I aim to support health communication online. I do that through research, teaching, and art. Here are some highlights:</span>
+		<span>I am Dr. Samuel R. Mendez, a researcher and artist focused on media, technology, and science communication. I recently got my PhD in public health from Harvard. And I have a background in media arts and media studies. I aim to support better science communication online. I do that through research, teaching, and media technology. Here are some highlights:</span>
 		<ul>
 			<li>
 				<a href="https://doi.org/10.2196/59786">A study of public health agencies using Twitter</a>, from 2012 through 2022.
@@ -20,12 +23,21 @@ const eleventyNavigation = {
 				<a href="https://hsph.harvard.edu/research/health-communication/resources/digital-safety-kit-for-public-health/">Digital Safety Kit for Public Health</a>: A guide to decrease the harm of online harassment.
 			</li>
 			<li>
-				<a href="https://bsky.app/profile/samuelanimates.bsky.social/feed/aaaarylo7rb2e">Public Health 🛟 feed on BlueSky</a>
+				<a href="https://bsky.app/profile/samuelanimates.bsky.social/feed/aaaarylo7rb2e">"Public Health 🛟" feed on BlueSky</a>
 			</li>
 		</ul>
-	</p>
+	</p>	
+	
+	{% set postsCount = collections.posts | length %}
+	{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+	<h2> Check out my latest {{ latestPostsCount }} blog posts </h2>
+	<p>Here are some of my latest thoughts on media, tech, and communication:</p>
+	{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+	{% set postslistCounter = postsCount %}
+	{% include "postslist.njk" %}
+
 	<h2> Follow me </h2>
-	<p>To connect with a growing network in public health, follow the <a href="https://bsky.app/profile/samuelanimates.bsky.social/feed/aaaarylo7rb2e">Public Health Feed on BlueSky</a>. To join a blooming community of scientists on social media, use the <a href="https://bsky.app/starter-pack/samuelanimates.bsky.social/3kw5z4vfc3h2m">Public Health BlueSky Starter Pack</a></p>
+	<p>To connect with a growing network in public health, follow my <a href="https://bsky.app/profile/samuelanimates.bsky.social/feed/aaaarylo7rb2e">public health BlueSky feed</a>. To join a community of researchers and advocates on social media, use my <a href="https://bsky.app/starter-pack/samuelanimates.bsky.social/3kw5z4vfc3h2m">"Public Health BlueSky" starter pack</a></p>
 	
 	<p>
 		<span>For more updates from me:</span>
@@ -34,7 +46,7 @@ const eleventyNavigation = {
 				<a href="https://www.youtube.com/@samuelanimates">YouTube</a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/newsletters/health-literacy-right-now-7110314537236463616/">Health Literacy Right Now newsletter</a> on LinkedIn
+				<a href="https://www.linkedin.com/newsletters/health-literacy-right-now-7110314537236463616/">"Health Literacy Right Now" newsletter</a> on LinkedIn
 			</li>
 			<li>
 				<a href="https://bsky.app/profile/samuelanimates.bsky.social">BlueSky</a>

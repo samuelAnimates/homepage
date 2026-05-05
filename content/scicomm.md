@@ -1,14 +1,14 @@
 ---js
 const eleventyNavigation = {
-	key: "Literacy",
-	order: 3
+	key: "SciComm",
+	order: 8
 };
 ---
-# Health Literacy
+# Science Communication
 
-Health literacy includes someone’s skills to find and use info. It also includes the quality of messages from health organizations. It also includes health professionals’ skills to share info. I like to focus on how to equip health organizations and professionals to communicate more clearly. I am not as into increasing people's personal health literacy skills. With only so many hours in the day, I think it makes more sense to target people whose job it is to discuss health.
+Science communication involves scientists' skills to share info and connect with an audience. It also involves audience members' preferences and skills to use info. It also includes the structures that supports these interactions. I like to focus on how health organizations can better support science communication. I also like to help scientists hone their communication skills.
 
-## Resources
+## Communication Resources
 
 With Harvard’s Center for Health Communication, I made many resources for online content creators. My goal was to share knowledge from marketing, web accessibility, and health literacy in usable formats. Here are a few highlights to help you:
 
@@ -20,7 +20,7 @@ I also publish a [health literacy newsletter](https://www.linkedin.com/newslette
 
 ## Research
 
-I publish peer-reviewed jopurnal articles to share knowledge about health literacy:
+I publish peer-reviewed jopurnal articles to share knowledge about clear communication:
 
 - [Limits of reading grade level estimates](https://doi.org/10.1080/10810730.2025.2583460)
 
