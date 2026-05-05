@@ -8,15 +8,21 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<ul class="post-metadata">
-	<li>Published: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}.</time></li>
-	<ul class="post-metadata">Tags: 
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-	</ul>
-</ul>
+<div class="post-metadata">
+	<div>
+		<span>Published: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}.</time></span>
+	</div>
+	<div>
+		<span>Tags:&ensp;</span> 
+		{%- for tag in tags | filterTagList %}
+		{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<span><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %},&ensp;{% endif %}</span>
+		{%- endfor %}
+	</div>
+</div>
+
+<h2> About the Author </h2>
+<p>Samuel R. Mendez, PhD, is a researcher focused on media, technology, and science communication. They have their PhD from the Harvard T.H. Chan School of Public Health. Their research has been published in journals including <i>Health Communication</i> and <i>Social Science and Medicine</i>. Their expert quotes appear in news stories from <i>Nature</i> and <i>New Hampshire Public Radio</i>.</p>
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}

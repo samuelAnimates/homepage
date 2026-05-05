@@ -260,7 +260,7 @@ footer{
 	justify-content: space-between;
 	gap: .5em 1em;
 	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
+	border-top: 1px solid var(--color-gray-20);
 	padding: 1em 0;
 	font-size: .85em;
 }
@@ -358,7 +358,7 @@ header {
 	margin-top: 0.5em;
 }
 .postlist-date{
-	font-size: 0.8125em; /* 13px /16 */
+	font-size: 0.85em; /* 13px /16 */
 	color: var(--color-gray-90);
 }
 .postlist-date {
@@ -368,28 +368,12 @@ header {
 	flex-basis: calc(100% - 1.5rem);
 }
 
-/* Tags */
-.post-tag {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: capitalize;
-}
-.postlist-item > .post-tag {
-	align-self: center;
-}
-
 /* Tags list */
 .post-metadata {
-	display: inline-flex;
+	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	gap: .5em;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	font-size: .85em;
+	font-size: .8em;
+	padding: 1em 0em;
+	border-top: 1px solid var(--color-gray-20);
 }
-.post-metadata time {
-	margin-right: 1em;
-}
-
