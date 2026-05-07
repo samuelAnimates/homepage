@@ -3,6 +3,8 @@ title: "Health Literacy Glow-up: Infographics"
 description: "Elevate your infographics with evidence-based practices. Learn from a worked example of a sun safety graphic."
 date: 2026-05-04
 tags: ["Health Literacy", "Glow Up","Infographics"]
+previewImg: "/img/blog001.png"
+previewImgAlt: "Health Literacy Glow Up, number 1. Usable graphics."
 ---
 ## 1-Minute Takeaways
 
@@ -94,4 +96,4 @@ Finally, it's important to keep in mind accessibility. The original infographic 
 2. Use active voice.
 3. Help people solve problems.
 
-It also emphasized the importance of addressing health equity in a "general audience" material.
+It also emphasized the importance of addressing health equity in a "general audience" material. (Note: I published a [version of this article on LinkedIn](https://www.linkedin.com/pulse/health-literacy-glow-up-1-elevate-communication-practices-mendez-1f), on September 20, 2023.)

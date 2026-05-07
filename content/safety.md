@@ -4,10 +4,16 @@ const eleventyNavigation = {
 	order: 7,
 	
 };
+const title = "Digital Safety for Public Health Workers | Samuel R. Mendez";
+const description = "Resources and research to help public health workers navigate online harassment including guides, op-eds, and workshops with Harvard.";
+const previewImg = "/img/safety.png"
+const previewImgAlt = "Pink-tinted collage of computers, phones, file folders, and ID cards with locks and warning signs."
 ---
 # Digital Safety
 
 Online harassment is a growing concern for people in public health. This includes students, scientists, officials, and other workers. Public funding and the need for community engagement make it impossible to "just log off." So I've spent a lot of time giving people tips to help reduce the harm.
+
+![Pink-tinted collage of computers, files, and ID cards with locks and warning signs.](../../img/safety.png)
 
 ## Resources
 

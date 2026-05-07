@@ -3,10 +3,14 @@ const eleventyNavigation = {
 	key: "Media",
 	order: 5
 };
+const previewImg = "/img/media.png"
+const previewImgAlt = "Green-tinted collage of newspapers, smart phones, cameras, and other media tech."
 ---
-# Media & Health
+# Media's Impact
 
-Most people's interactions with public health are through media, like info on websites. Or TV ads. Or newspaper stories. Or social media graphics. So it's crucial to understand how media work and how we use them. I'm interested most in how health organizations and scientists use media.
+Most people's interactions with research are through media, like info on websites. Or TV ads. Or newspaper stories. Or social media graphics. So it's crucial to understand how media work and how we use them. That way research organizations and scientists can use media for bigger impact.
+
+![Green-tinted collage of newspapers, smart phones, cameras, and other media tech.](../../img/media.png)
 
 ## Research
 
