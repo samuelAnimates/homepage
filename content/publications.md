@@ -3,10 +3,16 @@ const eleventyNavigation = {
 	key: "Published Work",
 	order: 6
 };
+const title = "Research & Published Work | Samuel R. Mendez";
+const description = "Peer-reviewed research, op-eds, and journalism spanning science communication, health misinformation, online harassment, and emerging technology. Published in journals, IndieWire, and more.";
+const previewImg = "/img/publishedwork.png"
+const previewImgAlt = "Peach-tinted collage of papers, reports, and other publications, topped with an icon of a research paper."
 ---
 # Published Work
 
 It's important to me to share the things I learn. Sometimes this takes the form of a research paper. Other times it takes the form of an opinion piece. Other times, I share my experience with journalists. Here's a sampling of this work.
+
+![Peach-tinted collage of papers, reports, and other publications, topped with an icon of a research paper.](../../img/publishedwork.png)
 
 ## Op-Eds
 

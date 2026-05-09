@@ -3,10 +3,16 @@ const eleventyNavigation = {
 	key: "Art",
 	order: 3
 };
+const title = "Media Arts & Design for Science Communication | Samuel R. Mendez";
+const description = "Animation, game design, and arts-based research engagement, including documentary film, a YouTube series, and UNFUNDABLE, a board game about academic research.";
+const previewImg = "/img/art.png"
+const previewImgAlt = "Goldenrod-tinted collage of videos, cameras, paint, and drawings, topped with an icon of clouds in a browser window."
 ---
-# Arts and Design
+# Media Arts and Design
 
 I view art as a way to make meaning out of the issues I care about, including public health issues.
+
+![Goldenrod-tinted collage of videos, cameras, paint, and drawings, topped with an icon of clouds in a browser window.](../../img/art.png)
 
 ## Animation
 

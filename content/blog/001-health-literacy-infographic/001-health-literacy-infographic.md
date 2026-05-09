@@ -1,6 +1,6 @@
 ---
-title: "Health Literacy Glow-up: Infographics"
-description: "Elevate your infographics with evidence-based practices. Learn from a worked example of a sun safety graphic."
+title: "Health Literacy Glow-up: Usable Infographics"
+description: "Use the Suitability Assessment of Materials to improve your infographics. 3 evidence-based tips: relevant illustrations, active voice, and action-oriented content."
 date: 2026-05-04
 tags: ["Health Literacy", "Glow Up","Infographics"]
 previewImg: "/img/blog001.png"

@@ -3,10 +3,16 @@ const eleventyNavigation = {
 	key: "AI",
 	order: 2
 };
+const title = "AI & Public Engagement with Science | Samuel R. Mendez";
+const description = "Research, resources, and teaching on AI risks in public health and science communication, from supervised ML to large language models like ChatGPT and Llama.";
+const previewImg = "/img/ai.png"
+const previewImgAlt = "Blue-tinted collage of computers, networks, flowcharts and other technological symbols, with a pink html element icon on top"
 ---
 # Artificial Intelligence (AI)
 
 I'm interested in AI that doesn't tend to come across as AI anymore. Example: Google Maps does tasks that once seemed too complex for machines. Today, this tech is so common that it doesn't tend to come up in discussions of AI. I see the same thing happening with tools like ChatGPT. And I want to explore the public health risks of this shift.
+
+![Blue-tinted collage of computers, networks, flowcharts and other technological symbols, with a pink html element icon on top](../../img/ai.png)
 
 ## Resources
 

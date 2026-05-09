@@ -3,10 +3,16 @@ const eleventyNavigation = {
 	key: "SciComm",
 	order: 8
 };
+const title = "Science Communication Research & Resources | Samuel R. Mendez";
+const description = "Resources, research, and teaching on science communication and health literacy, including tools for clear writing, AI in health communication, and the CDC Clear Communication Index";
+const previewImg = "/img/sciComm.png"
+const previewImgAlt = "Blue-tinted collage of graphs, screens, and diagrams, topped with an illustration of 3 people talking and laughing."
 ---
 # Science Communication
 
 Science communication involves scientists' skills to share info and connect with an audience. It also involves audience members' preferences and skills to use info. It also includes the structures that supports these interactions. I like to focus on how health organizations can better support science communication. I also like to help scientists hone their communication skills.
+
+![Blue-tinted collage of graphs, screens, and diagrams, topped with an illustration of 3 people talking and laughing.](../../img/sciComm.png)
 
 ## Communication Resources
 
