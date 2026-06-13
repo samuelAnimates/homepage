@@ -12,7 +12,7 @@ const previewImgAlt = "Peach-tinted collage of papers, reports, and other public
 
 It's important to me to share the things I learn. Sometimes this takes the form of a research paper. Other times it takes the form of an opinion piece. Other times, I share my experience with journalists. Here's a sampling of this work.
 
-![Peach-tinted collage of papers, reports, and other publications, topped with an icon of a research paper.](../../img/publishedwork.png)
+![Peach-tinted collage of papers, reports, and other publications, topped with an icon of a research paper.](../../img/publishedWork.png)
 
 ## Op-Eds
 

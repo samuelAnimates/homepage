@@ -2,51 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://samuelanimates.com/blog/</loc>
-		<lastmod>2025-02-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/safety/</loc>
-		<lastmod>2025-02-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/tags/</loc>
-		<lastmod>2025-02-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/publications/</loc>
-		<lastmod>2025-02-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/scicomm/</loc>
-		<lastmod>2025-02-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/media/</loc>
-		<lastmod>2025-02-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/ai/</loc>
-		<lastmod>2025-02-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/arts/</loc>
-		<lastmod>2025-02-06</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://samuelanimates.com/</loc>
-		<lastmod>2025-02-06</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://samuelanimates.com/blog/001-health-literacy-infographic/</loc>
 		<lastmod>2026-05-04</lastmod>
 	</url>
@@ -57,7 +12,57 @@
 	</url>
 	
 	<url>
-		<loc>https://samuelanimates.com/blog/003-health-literacy-data/</loc>
+		<loc>https://samuelanimates.com/blog/004-health-literacy-video/</loc>
 		<lastmod>2026-05-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/ai/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/arts/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/blog/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/media/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/publications/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/safety/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/scicomm/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/tags/</loc>
+		<lastmod>2026-05-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://samuelanimates.com/blog/003-health-literacy-data/</loc>
+		<lastmod>2026-06-14</lastmod>
 	</url>
 </urlset>

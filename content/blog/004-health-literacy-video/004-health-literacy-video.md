@@ -1,50 +1,39 @@
 ---
-title: "Health Literacy Glow Up: Actionable Videos"
-description: "Use the PEMAT to to make videos more usable for health promotion. Worked example transforming a flu prevention video from a list of facts into an action plan."
-date: 2026-06-14
-tags: ["Health Literacy", "Glow Up", "Video"]
-previewImg: "/img/blog004.png"
-previewImgAlt: "Health Literacy Glow Up, number 4. Acitonable Videos."
+title: "Health Literacy Glow Up: Accessible Data Visualization "
+description: "Use the PMOSE/IKIRSCH to simplify public health data. Worked example turning a COVID-19 hospitalization table into readable lists, timelines, and accessible graphics."
+date: 2026-05-09
+tags: ["Health Literacy", "Glow Up", "Data"]
 ---
 ## 1-Minute Takeaways
 
-This article aims to spread health literacy evidence and best practice so you can make your videos more effective. If you only have a minute, here are some tips to enhance your health communication right now.
+This article aims to spread health literacy evidence and best practice so you can use data more effectively in your communication. If you only have a minute, here are some tips to enhance your health communication right now.
 
-- Include at least one call to action. Break the action down into distinct steps to make it even clearer. 
-- When writing your call to action, use commands. Don’t just list facts, as in: “Wearing a mask in crowded spaces can help reduce COVID risk.” Give a command, as in: “Wear a mask in crowded spaces to help prevent getting sick.”
-- Organize your video into distinct sections. Put those sections in a logical order. - Use headings to clearly separate and announce the video's sections.
+- Use lists rather than tables.
+- If you must use a table, use tables that only need column labels. These are clearer than tables that need both column labels and row labels.
+- If you must use a table with column labels, avoid tables with sub-columns.
+- Avoid using graphs.
+- If you must use a graph, use an icon array or a timeline rather than bar/line graphs.
+- If you must use a more complex graph, avoid graphs that require a key, like those with stacked bars or nested lines.
 
-
-These tips come from the [PEMAT-A/V](https://www.ahrq.gov/sites/default/files/publications/files/pemat-av.pdf). It tells you how actionable and understable your audiovisual material is.
-
----
-
-## Today's Glow Up: A Video on Flu Prevention
-
-Let's take this flu [prevention video from MD Anderson Cancer Center](https://www.youtube.com/watch?v=qKYjj4VTksI). It's titled "7 ways to help prevent flu germs from spreading."
-
-https://www.youtube.com/watch?v=qKYjj4VTksI
-
- Here is a transcript of the video's tips:
-
->Wash your hands with soap and water, for at least 20 seconds. Avoid contact with others when sick. Stay home for at least 24 hours after your fever is gone if you have flu-like symptoms. Cough or sneeze into your elbow, or cover your mouth and nose with a tissue when you sneeze—and throw it away when you're done. Avoid touching your eyes, nose and mouth. Clean and disinfect surfaces and objects that may be contaminated with flu germs. Take antiviral drugs like Tamiflu if your doctor prescribes them. It could mean the difference between having a milder illness and a serious one that requires hospitalization. 
-
-This video has a few key strengths. It uses streamlined graphics and bold colors. It's concise, lasting less than 1 minute. The title is clear. And the content supports specific health behaviors.
-
-At the same time, it has some room to improve. Let's look at some questions from the PEMAT-A/V to learn how. 
+These tips come from the [PMOSE/IKIRSCH](http://www.makingnumbersmeaningful.org/documents/pmose.pdf). It tells you how dense your document is with information. 
 
 ---
 
-### Make Your Video Understandable
+## Today's Glow Up: COVID-19 Data Visualization
 
-This video is so short that only one organization question from the PEMAT-A/V applies. Does the material present information in a logical sequence? I would say no. Though the other questions don't technically apply, they can still help us plan our edits. 
+For today's Glow-Up, we'll focus on sharing public health data. Let's start with data from the New York Times COVID dashboard. Let's say we want to discuss the need for COVID safety in Maine. We might copy and paste hospitalization data, as in the screenshot below. (Note, this blog post uses data from 2023 for educational purposes around data visualization. Do not rely on this post as an up-to-date guide on COVID-19 transmission.)
 
+![Screenshot of table with COVID-19 case and trend data, organized by state.](./img01.png)
 
+This table mixes different kinds of data, including: raw numbers of hospital admissions, hospitalization rates per 100,000, and percentage changes. (Screenshot from Oct. 20, 2023). When we assess it with the PMOSE/IKIRSCH, we see that it has an intersected list structure. This means rows and columns both have labels to keep track of. There are 18 labels and 99 data points. In total, this means someone would need some high school education to interact with it. That might be fine for the New York Times. But we need some edits if we want to reach more people.
 
+---
 
+### Step 1: Reduce the Data Points
 
+Our first step is to reduce the number of data points. Start by asking: why do we want to share data? Our answer will guide our edits.
 
-
+Let's say we want people in Maine to get an updated COVID vaccine as soon as they can. Data can help show how fast COVID is spreading. Showing this spread might be part of our message strategy. In this case, we might just need 2 rows in our table. The Maine row is relevant to our readers. And the US row provides context. We might then focus on hospitalizations, since those numbers change closer to real-time.
 
 ![Screenshot of a table with hospitalization data for US and for Maine in the past week.](./img02.png)
 

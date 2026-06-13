@@ -4,7 +4,7 @@ description: "Use the SMOG formula to improve your writing. Worked example editi
 date: 2026-05-06
 tags: ["Health Literacy", "Glow Up", "Writing"]
 previewImg: "/img/blog002.png"
-previewImgAlt: "Health Literacy Glow Up, number 1. Usable graphics."
+previewImgAlt: "Health Literacy Glow Up, number 2. Readability."
 ---
 ## 1-Minute Takeaways
 
@@ -13,13 +13,13 @@ If you only have a minute, here are 2 takeaways to enhance your writing right no
 - **Replace words with more than 2 syllables.** Highlight each of these longer words and start rephrasing. This won't make your text 100% more readable, but it is a great start.
 - **Break up sentences.** Highlight the ends of sentences and start cutting them in two, especially if you see a sentence go on for multiple lines Using shorter, choppier sentences is fine.
 
-These tips are based on the SMOG reading grade level formula. If you want a. Follow the (SMOG guide I wrote for the Harvard School of Public health)[https://hsph.harvard.edu/research/health-communication/resources/smog/]. Or paste your text into a web app like the (SMOG calculator from Text Compare)[https://www.readabilit.com/readability/smog-index]. That said, you don't need to do any math to benefit from the SMOG. Combing through your text with these two tips might be enough. In practice, this can be a better use of time than trying to use the SMOG the "right" way. 
+These tips are based on the SMOG reading grade level formula. If you want a. Follow the [SMOG guide I wrote for the Harvard School of Public health](https://hsph.harvard.edu/research/health-communication/resources/smog/). Or paste your text into a web app like the [SMOG calculator from Text Compare](https://www.readabilit.com/readability/smog-index). That said, you don't need to do any math to benefit from the SMOG. Combing through your text with these two tips might be enough. In practice, this can be a better use of time than trying to use the SMOG the "right" way. 
 
 ---
 
 ## Today's Glow Up: COVID-19 Data Visualization
 
-Today's Glow Up improves a text about new COVID-19 vaccines from the (Public Health Communications Collaborative (PHCC))[https://publichealthcollaborative.org/topics/vaccine-development-safety-and-effectiveness/]. At first glance, this text has really helpful features. It uses clear headings for structure. It uses bullet lists to break up key points. It also uses a handy Q&A format. (Note, this blog post looks at the August 2025 update to this page. Check the PHCC website for the latest info).
+Today's Glow Up improves a text about new COVID-19 vaccines from the [Public Health Communications Collaborative (PHCC)](https://publichealthcollaborative.org/topics/vaccine-development-safety-and-effectiveness/). At first glance, this text has really helpful features. It uses clear headings for structure. It uses bullet lists to break up key points. It also uses a handy Q&A format. (Note, this blog post looks at the August 2025 update to this page. Check the PHCC website for the latest info).
 
 I also see some things that are worthy of a Glow Up. I used the SMOG formula to highlight spots I want to edit. Here's how that worked:
 
