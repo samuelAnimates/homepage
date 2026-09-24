@@ -2,7 +2,7 @@
 title: "Health Literacy Glow-up: Usable Infographics"
 description: "Use the Suitability Assessment of Materials to improve your infographics. 3 evidence-based tips: relevant illustrations, active voice, and action-oriented content."
 date: 2026-05-04
-tags: ["Health Literacy", "Glow Up","Infographics"]
+tags: ["Health Literacy", "Glow Up", "Infographic", "Cancer"]
 previewImg: "/img/blog001.png"
 previewImgAlt: "Health Literacy Glow Up, number 1. Usable graphics."
 ---

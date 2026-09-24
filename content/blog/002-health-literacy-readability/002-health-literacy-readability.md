@@ -2,7 +2,7 @@
 title: "Health Literacy Glow Up: Readable Text"
 description: "Use the SMOG formula to improve your writing. Worked example editing a COVID-19 vaccine text from the Public Health Communications Collaborative."
 date: 2026-05-06
-tags: ["Health Literacy", "Glow Up", "Writing"]
+tags: ["Health Literacy", "Glow Up", "Writing", "COVID"]
 previewImg: "/img/blog002.png"
 previewImgAlt: "Health Literacy Glow Up, number 2. Readability."
 ---
@@ -17,7 +17,7 @@ These tips are based on the SMOG reading grade level formula. If you want a. Fol
 
 ---
 
-## Today's Glow Up: COVID-19 Data Visualization
+## Today's Glow Up: COVID-19 Vaccine Info
 
 Today's Glow Up improves a text about new COVID-19 vaccines from the [Public Health Communications Collaborative (PHCC)](https://publichealthcollaborative.org/topics/vaccine-development-safety-and-effectiveness/). At first glance, this text has really helpful features. It uses clear headings for structure. It uses bullet lists to break up key points. It also uses a handy Q&A format. (Note, this blog post looks at the August 2025 update to this page. Check the PHCC website for the latest info).
 
