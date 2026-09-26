@@ -1,10 +1,10 @@
 ---
 title: "AI Won't Save Health Literacy"
-description: "Use the PEMAT to to make videos more usable for health promotion. Worked example transforming a flu prevention video from a list of facts into an action plan."
+description: "New series on the limits and strengths of AI approaches to improving health communication and increasing organizational health literacy."
 date: 2026-09-26
 tags: ["Health Literacy", "AI", "Health Literacy and AI", "Topic Overview"]
 previewImg: "/img/blog005.png"
-previewImgAlt: "Health Literacy Glow Up, number 4. Actionable Videos."
+previewImgAlt: "AI Won't Save Health Literacy"
 ---
 
  _Health Literacy and AI_ is a series about how tools like large language models (LLMs) and machine learning are changing the way we share health info. I break down what’s working, what’s not, and what’s next. I draw from my own research combining AI and health literacy. The goal: better, fairer health info for all.
