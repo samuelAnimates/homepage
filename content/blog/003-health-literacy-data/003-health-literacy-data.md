@@ -3,8 +3,8 @@ title: "Health Literacy Glow Up: Accessible Data Visualization "
 description: "Use the PMOSE/IKIRSCH to simplify public health data. Worked example turning a COVID-19 hospitalization table into readable lists, timelines, and accessible graphics."
 date: 2026-05-09
 tags: ["Health Literacy", "Glow Up", "Video"]
-previewImg: "/img/blog004.png"
-previewImgAlt: "Health Literacy Glow Up, number 4. Acitonable Videos."
+previewImg: "/img/blog003.png"
+previewImgAlt: "Health Literacy Glow Up, number 3. Usable data."
 ---
 ## 1-Minute Takeaways
 

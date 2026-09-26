@@ -3,6 +3,8 @@ title: "Health Literacy Glow Up: Actionable Videos"
 description: "Use the PEMAT to to make videos more usable for health promotion. Worked example transforming a flu prevention video from a list of facts into an action plan."
 date: 2026-06-14
 tags: ["Health Literacy", "Glow Up", "Data"]
+previewImg: "/img/blog004.png"
+previewImgAlt: "Health Literacy Glow Up, number 4. Actionable Videos."
 ---
 ## 1-Minute Takeaways
 
